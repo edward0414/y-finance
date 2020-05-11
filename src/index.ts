@@ -11,12 +11,4 @@ class YahooFinance {
   }
 }
 
-const YahooFinanceEnginer = new YahooFinance();
-YahooFinanceEnginer.getQuote('OXY')
-  .then((resp) => {
-    const data = resp.data.quoteResponse;
-    console.log('data', data);
-  })
-  .catch(console.log);
-
 export default YahooFinance;
