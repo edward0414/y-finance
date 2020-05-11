@@ -1,7 +1,7 @@
 {
-  "name": "y-finance",
+  "name": "@edward0414/yahoo-finance",
   "version": "1.0.0",
-  "description": "Yahoo Finance API for Node, including quote summary and financial data.",
+  "description": "This package fetchs data on Yahoo Finance, including quote summary and financial data.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
