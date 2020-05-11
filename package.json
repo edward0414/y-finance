@@ -1,7 +1,7 @@
 {
-  "name": "npm-yahoo-finance",
+  "name": "y-finance",
   "version": "1.0.0",
-  "description": "Yahoo Finance Wrapper",
+  "description": "Yahoo Finance API for Node, including quote summary and financial data.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -17,18 +17,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edward0414/npm-yahoo-finance.git"
+    "url": "git+https://github.com/edward0414/y-finance.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edward0414/npm-yahoo-finance/issues"
+    "url": "https://github.com/edward0414/y-finance/issues"
   },
-  "homepage": "https://github.com/edward0414/npm-yahoo-finance#readme",
+  "homepage": "https://github.com/edward0414/y-finance#readme",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^26.0.1",
+    "nodemon": "^2.0.3",
     "prettier": "^2.0.5",
     "ts-jest": "^25.5.1",
     "tslint": "^6.1.2",

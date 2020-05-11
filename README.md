@@ -1,1 +1,1 @@
-# npm-yahoo-finance
+# y-finance
