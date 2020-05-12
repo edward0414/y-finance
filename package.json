@@ -1,6 +1,6 @@
 {
   "name": "@edward0414/yahoo-finance",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package fetchs data on Yahoo Finance, including quote summary and financial data.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
