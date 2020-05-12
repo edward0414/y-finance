@@ -3,6 +3,7 @@ export const query1Url =
 export const query2Url =
   'https://query2.finance.yahoo.com/v10/finance/quoteSummary/$SYMBOL?formatted=true&modules=$FIELDS';
 export const scrapingUrl = 'https://finance.yahoo.com/quote/$SYMBOL/history';
+
 export const query1Fields = [
   'messageBoardId',
   'longName',
@@ -23,6 +24,7 @@ export const query1Fields = [
   'toExchange',
   'fromExchange',
 ];
+
 export const query2Fields = [
   'incomeStatementHistory',
   'cashflowStatementHistory',
