@@ -4,7 +4,7 @@ export const query2Url =
   'https://query2.finance.yahoo.com/v10/finance/quoteSummary/$SYMBOL?formatted=true&modules=$FIELDS';
 export const scrapingUrl = 'https://finance.yahoo.com/quote/$SYMBOL/history';
 
-export const query1Fields = [
+export const quoteFields = [
   'messageBoardId',
   'longName',
   'shortName',
@@ -25,13 +25,16 @@ export const query1Fields = [
   'fromExchange',
 ];
 
-export const query2Fields = [
+export const financialFields = [
   'incomeStatementHistory',
   'cashflowStatementHistory',
   'balanceSheetHistory',
   'incomeStatementHistoryQuarterly',
   'cashflowStatementHistoryQuarterly',
   'balanceSheetHistoryQuarterly',
+];
+
+export const ownershipFields = [
   'institutionOwnership',
   'fundOwnership',
   'majorDirectHolders',
@@ -41,7 +44,5 @@ export const query2Fields = [
   'netSharePurchaseActivity',
   'earningsHistory',
   'earningsTrend',
-  'industryTrend',
   'indexTrend',
-  'sectorTrend',
 ];

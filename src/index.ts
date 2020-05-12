@@ -1,3 +1,3 @@
-import YahooFinance from './base';
+import YahooFinance from './yahoo';
 
 module.exports = YahooFinance;

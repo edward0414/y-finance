@@ -18,4 +18,10 @@ YahooFinanceEnginer.getFinancials('MSFT')
     console.log('data', data);
   })
   .catch(console.log);
+
+YahooFinanceEnginer.getOwnership('MSFT')
+  .then((data) => {
+    console.log('data', data);
+  })
+  .catch(console.log);
 ```
