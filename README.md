@@ -1,5 +1,11 @@
 # y-finance
 
+## Installation
+
+```
+$ npm i @edward0414/yahoo-finance
+```
+
 ## Sample Usage
 
 ```javascript
